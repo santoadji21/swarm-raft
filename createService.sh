@@ -1,0 +1,1 @@
+docker service create --endpoint-mode dnsrr --replicas 5 --name raft --network raftnet adji21/raft:latest

@@ -1,0 +1,10 @@
+version: '3'
+services:
+  raft:
+    image: 'adji21/raft:latest'
+    restart: always
+    networks:
+      - raftnet
+
+networks:
+  raftnet: 

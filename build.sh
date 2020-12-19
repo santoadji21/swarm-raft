@@ -1,0 +1,1 @@
+docker build -t adji21/raft:latest .
